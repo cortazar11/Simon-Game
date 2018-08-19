@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>SIMON GAME</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  </head>
+  <body>
+  	<div class="game">
+  			
+				<div class="internalSemi bg_green" style="float:left;border-top-left-radius:100%;"
+				 id="green"></div>
+				<div class="internalSemi bg_red" style="float:left;border-top-right-radius:100%;"
+				 id="red"></div>
+				<div class="internalSemi bg_yellow" style="clear:left;float:left;border-bottom-left-radius:100%;" id="yellow"></div>
+				<div class="internalSemi bg_blue" style="float:left;border-bottom-right-radius:100%;"
+				 id="blue"></div>
+
+				<div class="internalCircle">
+					<p id="simon">Simon</p>
+					
+						<div id="count">
+							<p class="countLines"></p>
+						</div>
+						<p style="position:absolute;top:65%;left:15%;font-size:0.8em;">COUNT</p>
+						<div style="border:1px solid;width:15%;height:15%;background-color:red;position:absolute;top:50%;left:47%;border-radius:100%;" id="start">
+						</div>
+						<p style="position:absolute;top:65%;left:46%;font-size:0.8em;">START</p>
+						<div style="border:1px solid;width:5%;height:5%;position:absolute;top:43%;left:75%;border-radius:100%;background-color:#422217;" id="strictLight" >
+						</div>
+						<p style="position:absolute;top:65%;left:70%;font-size:0.8em;">STRICT</p>
+						<div style="border:1px solid;width:15%;height:15%;background-color:yellow;position:absolute;top:50%;left:70%;border-radius:100%;" id="strict" >
+						</div>
+
+						<p style="display:inline-block;background-color:white;height:auto;position:absolute;top:82%;left:23%"">OFF</p>
+						<div style="border:1px solid;width:20%;height:11%;position:absolute;top:82%;left:40%;background-color:DarkSlateGray;" id="onOff">
+							<div class="bg_on" style="width:50%;height:100%;float: left;" id="on"></div>
+							<div  style="width:50%;height:100%;float:left;" id="off"></div>
+							
+						</div>
+						
+						<p style="display:inline-block;background-color:white;position:absolute;top:82%;right:26%"">ON</p>
+
+				</div>
+			
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+  	<script src="simonCode2.js"></script>
+  </body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+<script src='https://use.fontawesome.com/4190caa3d4.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

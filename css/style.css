@@ -1,0 +1,103 @@
+.game {
+	border: 3px solid rgb(22, 77, 100);
+	width:25em;
+	height:25em;
+	border-radius:100%;
+	margin:5em auto;
+	background-color: DarkSlateGray;
+}
+
+.internalSemi {
+	border: 3px solid rgb(22, 77, 100);
+	width:40%;
+	height:40%;
+	margin-top:7%;
+	margin-left:7%;
+	cursor: pointer;
+}
+
+.internalCircle {
+	border: 3px solid rgb(22, 77, 100);
+	width:58%;
+	height:58%;
+	position:relative;
+	top:22%;
+	left:22%;
+	border-radius:100%;
+	background-color: white;
+	
+}
+
+p#simon {
+	position:absolute;
+	width:100%;
+	text-align:center;
+	font-size:3.5em;
+	font-weight:900;
+	margin-top:0.3em;
+}
+
+#count {
+	border:1px solid;
+	width:30%;
+	height:20%;
+	background-color:#422217;
+	position:absolute;
+	top:45%;
+	left:10%;
+	border-radius:15%;
+}
+
+#start, #onOff, #strict {
+	cursor:pointer;
+}
+
+
+.countLines {
+	font-size:2em;
+	font-weight:bold;
+	margin-left:13%;
+	color:#FF8158;
+	position:relative;
+	top:0%;
+	left:13%;
+	/*display:none;
+	/*z-index:9999;*/
+
+}
+
+.bg_green {
+	background-color: green;
+}
+
+.bg_red {
+	background-color: #9A0200;
+}
+
+.bg_yellow {
+	background-color: #FFB116;
+}
+
+.bg_blue {
+	background-color: #2590FF;
+}
+
+.bg_green_light {
+	background-color: #25FF16;
+}
+
+.bg_red_light {
+	background-color: #FF1600;
+}
+
+.bg_yellow_light {
+	background-color: #FFF505;
+}
+
+.bg_blue_light {
+	background-color: #25FFFF;
+}
+
+div.bg_on {
+	background-color: #04B8FF;
+}
